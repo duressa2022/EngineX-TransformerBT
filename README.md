@@ -42,8 +42,7 @@ The project is organized into two main directories: `engine` (core implementatio
 ```
 engineX-transformerBT/
 ├── engine/                          # Core implementation modules
-│   ├── __apps__.py                  # Application utilities (if any)
-│   ├── __model__.py                 # Model-related utilities (if any)
+│   ├── __model__.py                 # for model checkpoint saving
 │   ├── __pycache__/                 # Python cache files
 │   ├── build_transformer.py         # Main script to build the Transformer model
 │   ├── decoder_layer.py             # Decoder layer implementation
@@ -61,9 +60,9 @@ engineX-transformerBT/
 │   ├── transformer_encoder.py       # Full Transformer encoder implementation
 │   └── transformer_network.py       # Complete Transformer network (encoder + decoder)
 ├── models/                          # Directory for saving/loading models
-├── routes/                          # Directory for API routes (if applicable)
-├── service/                         # Service-related scripts (if applicable)
-├── README.md                        # This file
+├── routes/                          # Directory for API routes 
+├── service/                         # Service-related scripts
+├── README.md                        # current file
 ├── requirements.txt                 # Python dependencies
 └── train.py                         # Training script (to be created)
 ```
