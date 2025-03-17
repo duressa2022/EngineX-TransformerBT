@@ -208,7 +208,7 @@ for epoch in range(num_epochs):
     print(f"Epoch {epoch+1}/{num_epochs}, Loss: {loss.item():.4f}, Accuracy: {accuracy.item():.4f}, LR: {optimizer.param_groups[0]['lr']:.7f}")
 
 # Save the model
-torch.save(model.state_dict(), "models/transformer_model.pth")
+torch.save(model.state_dict(), "engine/__app_model/transformer.pt")
 ```
 
 Run the training script:
