@@ -113,18 +113,18 @@ if __name__ == "__main__":
        print("word: ",words)
 
     #decode encoded one into token 
-    # decoded=processor.decode(encoded[0].ids)
-    # print("decoded",decoded)
+    decoded=processor.decode(encoded[0].ids)
+    print("decoded",decoded)
 
     #bulid string from vectorized 
-    # ans=processor.build_string(vectorized[1],vocab)
-    # print("ans",ans)
+    ans=processor.build_string(vectorized[1],vocab)
+    print("ans",ans)
 
     #build words from tokens 
-    # ans=processor.join_subwords(ans)
-    # print("ans",ans)
+    ans=processor.join_subwords(ans)
+    print("ans",ans)
     
-    # print("Vectorized output:")
-    # print(vectorized)
-    # print("\nVocabulary tokens:")
-    # print(list(vocab.keys()))
+    print("Vectorized output:")
+    print(vectorized)
+    print("\nVocabulary tokens:")
+    print(list(vocab.keys()))
