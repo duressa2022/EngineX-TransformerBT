@@ -27,7 +27,7 @@ The project is designed for researchers and developers interested in NLP, machin
 ## Features
 
 - **Custom Transformer Implementation**: A from-scratch implementation of the Transformer architecture, including encoder, decoder, multi-head attention, and feed-forward layers.
-- **English-to-Afaan Oromo Translation**: Supports translation for the low-resource language pair, with a generated dataset of 1000 sentence pairs.
+- **English-to-Afaan Oromo Translation**: Supports translation for the low-resource language pair, with a generated dataset of sentence pairs.
 - **Text Processing**: Includes a `TextProcessingLayer` for tokenization, encoding, and vectorization using the Hugging Face `tokenizers` library.
 - **Padding-Aware Training**: Handles variable-length sequences with padding masks, masked loss, and accuracy functions.
 - **Learning Rate Scheduler**: Implements the Transformer learning rate schedule with warmup and decay, as per the "Attention Is All You Need" paper.
